@@ -78,7 +78,7 @@ public class HotelSetup {
 
         System.out.println("-HotelName :" + hotel.getHotelName());                                        //Printing Hotel name and total Hotel rate for the date range
         System.out.println("-NumberOfDaysStayed * WeekendRegularRate :" + hotel.getTotal() + "$");
-        System.out.println("-Raiting :" + hotel.getRating());
+        System.out.println("-Rating :" + hotel.getRating());
 
     }
 
