@@ -2,10 +2,13 @@ package com.brigelabz.workshop3;
 
 public class HotelReservationSystem {
     public static void main(String[] args) {
+
         System.out.println("Welcome to Hotel Reservation System");
+
         HotelSetup hotelSetup=new HotelSetup();
 
-        System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+        System.out.println("------------------------------------------------------------------");
+
         System.out.println(" ");
         System.out.println("--Welcome to Hotel Rates Program--");
         System.out.println(" ");

@@ -3,21 +3,34 @@ package com.brigelabz.workshop3;
 public class Hotel {
 
     String hotelName;
+
     int weekdayRegularRate;
+
     int weekendRegularRate;
+
     int weekdayRewardRate;
+
     int weekendRewardRate;
+
     int rating;
-    int Total;
+
+    int total;
 
 
     public Hotel(String hotelName, int weekdayRegularRate, int weekdayRewardRate, int weekendRegularRate,int weekendRewardRate,int rating) {
+
         this.hotelName = hotelName;
+
         this.weekdayRegularRate = weekdayRegularRate;
+
         this.weekdayRewardRate = weekdayRewardRate;
+
         this.weekendRegularRate = weekendRegularRate;
+
         this.weekendRewardRate = weekendRewardRate;
+
         this.rating = rating;
+
     }
 
     public String getHotelName() {
@@ -51,11 +64,11 @@ public class Hotel {
     }
 
     public void setTotal(int total) {
-        Total = total;
+        total = total;
     }
 
     public int getTotal() {
-        return Total;
+        return total;
     }
 
     public int getRating() {
